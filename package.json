@@ -1,0 +1,31 @@
+{
+  "name": "canyoncreeklidar",
+  "version": "1.0.0",
+  "description": "### Prequistites 1. Download node.js: https://nodejs.org/en/download 2. Download git: https://git-scm.com/downloads 3. Run ```npm install``` in each root directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gearsmotion789/CanyonCreekLidar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gearsmotion789/CanyonCreekLidar/issues"
+  },
+  "homepage": "https://github.com/gearsmotion789/CanyonCreekLidar#readme",
+  "dependencies": {
+    "aws-sdk": "^2.658.0",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "node-ssh": "^8.0.0",
+    "queue": "^6.0.1",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.3",
+    "uuid": "^7.0.3"
+  }
+}

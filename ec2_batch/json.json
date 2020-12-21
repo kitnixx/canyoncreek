@@ -1,0 +1,1 @@
+{"bucket":"canyon-creek-bucket-0","data":"test-small-file","algorithm":"silva2016","timeout":14400000,"smooth":1,"filter":"mean","smooth_ws":5,"res":1,"ws":10,"z":10,"th_tree":2,"th_seed":0.45,"th_cr":0.55,"max_cr":10}

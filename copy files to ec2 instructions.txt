@@ -1,0 +1,2 @@
+scp -i "MyKey.pem" -r ./s3_upload ubuntu@ec2-54-172-94-50.compute-1.amazonaws.com:/home/ubuntu/
+scp -i "MyKey.pem" -r ./s3_download ubuntu@ec2-54-172-94-50.compute-1.amazonaws.com:/home/ubuntu/

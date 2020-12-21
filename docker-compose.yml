@@ -1,0 +1,10 @@
+version: '3'
+services:
+    backend:
+        build: .
+        image: gearsmotion789/canyoncreeklidar
+        container_name: canyoncreeklidar
+        ports:
+            - 3000:80
+        volumes:
+            - ~/.aws/credentials:/root/.aws/credentials
